@@ -5,6 +5,38 @@ html, body, h1, h2, h3, p, ol, li, a {
 }
 
 .nav li {
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline;
 }
 
+h1 {
+    margin: 30 auto 20 20;
+}
+
+h2 {
+    margin: 60 auto 15 150;
+}
+
+p {
+    font-size: 18px;
+    font-family: cursive;
+    margin: 10 auto 0 180;
+}
+
+table {
+    width: 500px;
+    margin: 100 auto 0 200;
+    font-family: cursive;
+}
+
+form {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

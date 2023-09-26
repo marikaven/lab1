@@ -14,8 +14,32 @@
             <li><a href="recipes.html">Recipes</a></li>
             <li><a href="magic.html">Magic Cake</a></li>
         </ul>
+
         <h2>Suggest</h2>
         
+        
+        <form name="nome" method="get" action="pagina.php" post="invisibile stringa da inviare al server" id="suggest">
+            
+            <label for="recipe-name">Recipe Name</label>
+            <input type="text" id="recipe-name">
+            
+            <label for="ingredients">Ingredients</label>
+            <textarea id="ingredients"></textarea>
+				
+            <label for="name">Your Name</label>
+            <input type="text" id="name">
+            
+            <label for="email">Your Email</label>
+            <input type="text" id="email">
+
+            <div>
+            <label for="newsletter">Get Newsletter</label>
+            <input type="checkbox" id="newsletter">
+            </div>
+            
+			<input type="submit" value="Click to Submit">
+
+        </form>
     </body>
 </html>
 </DOCTYPE>
